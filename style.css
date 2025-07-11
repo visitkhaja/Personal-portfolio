@@ -131,9 +131,14 @@ li:hover {
     height:600px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     width: 100%;
     padding-left: 20px;
-    background-color:#fbfcc7;
+    background-color:green;
     color: black;
     border-radius: 20px;
+}
+.aboutme-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }
 
 .p-aboutme {
@@ -141,7 +146,7 @@ li:hover {
     flex-direction: column;
     padding-left: 20px;
     gap: 12px;
-    font-size: 37px;                                        
+    font-size: 40px;                                        
     font-weight: bold;
     width: 34%;
     color: #080d20;
@@ -160,13 +165,13 @@ li:hover {
 
 .aboutme-button-text {
     width: 200px;
-    height: 50px;
+    height: 65px;
     font-size: 20px;
     border-radius: 25px;
     border: none;
     color:white;
     background-color: transparent;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .aboutme-button-text:hover {
@@ -197,7 +202,9 @@ li:hover {
 }
 .my-details{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    background-color:#fbf7f2;
     width: 100%;
     padding-right:5px;
     padding-top: 20px;
@@ -208,11 +215,8 @@ li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    width: 43%;
-    background-color:#fbf7f2;
-    border-radius: 20px;
+    width: 100%;
 }
 .logo-list{
     display: flex;
@@ -223,7 +227,7 @@ li:hover {
 .details{
     display: flex;
     flex-direction: column;
-    width: 57%;
+    width: 100%;
     gap: 10px;
     background-color:white;
     border-radius: 20px;
@@ -249,6 +253,8 @@ li:hover {
     height: fit-content;
 }
 .resume-heading{
+    display: flex;
+    justify-content: center;
     font-size: 25px;
     padding: 20px;
     padding-left: 40px;
